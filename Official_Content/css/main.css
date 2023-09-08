@@ -71,14 +71,51 @@ aside {
 
 .logo {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 .menu {
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    
+    margin-top: 20%;
+} 
+#todos .bi {
+    vertical-align: middle;
+    margin-right: 5px; 
+    font-size: 1rem; 
+    line-height: 1; 
+}
+
+/* Estilo para el tercer botón */
+#superiores .bi {
+    vertical-align: middle;
+    margin-left: 24px; 
+    font-size: 1rem; 
+    line-height: 1;
+}
+
+/* Estilo para el cuarto botón */
+#inferiores .bi {
+    vertical-align: middle;
+    margin-left: 30px; 
+    font-size: 1rem; 
+    line-height: 1; 
+}
+
+/* Estilo para el quinto botón */
+#zapatos .bi {
+    vertical-align: middle;
+    margin-left: 38px; 
+    font-size: 1rem; 
+    line-height: 1;
+}  
+/* Estilo para el segundo botón */
+#trajes .bi {
+    vertical-align: middle;
+    margin-left: 50px; 
+    font-size: 1rem; 
+    line-height: 1;
 }
 
 .boton-index {
@@ -109,17 +146,18 @@ aside {
     align-items: center;
     gap: 2.2rem;
     font-weight: 600;
-    padding: 1.1rem;
+    padding: 1.1rem; 
     font-size: .85rem;
-    width: 100%;
+    width: 80%; 
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .boton-menu.active {
     background-image: linear-gradient(90deg,#34566b , #429297, #50a497);
     color: var(--main);
-    border-top-left-radius: 5rem;
-    border-bottom-left-radius: 1rem;
+    border-radius: 5rem;
     position: relative;
+    color: rgb(164, 236, 172); 
 }
 
 .boton-menu.active::before {
@@ -187,9 +225,13 @@ main {
 .contenedor-productos {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
+    gap: 1rem; 
+} 
+.salida {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
-
+ 
 .producto-imagen {
     max-width: 100%;
     border-radius: 1.3rem; 
@@ -197,7 +239,7 @@ main {
 }
 
 .producto-detalles { 
-    background: linear-gradient(137deg, rgb(154, 171, 168) 0%, rgb(87, 89, 96) 24%, rgb(35, 37, 65) 98%);
+    background: linear-gradient(240deg, rgb(136, 156, 151) 0%, rgb(30, 30, 31) 24%, rgb(32, 34, 49) 98%);
     color: var(--white);
     padding: .5rem;
     border-radius: 1rem;

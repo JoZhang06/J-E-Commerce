@@ -17,27 +17,42 @@ botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
     aside.classList.remove("aside-visible");
 }))
 
+botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
+    aside.classList.remove("aside-visible");
+}))
+
 function cargarProductos(productosElegidos) {
-    contenedorProductos.innerHTML = "";
+    // Agrega la clase 'salida' para activar la animación de salida
+    contenedorProductos.classList.add("salida");
 
-    productosElegidos.forEach(producto => {
+    // Espera a que termine la animación de salida y luego actualiza el contenido
+    setTimeout(() => {
+        contenedorProductos.innerHTML = "";
 
-        const div = document.createElement("div");
-        div.classList.add("producto");
-        div.innerHTML = `
-            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-            <div class="producto-detalles">
-                <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}">Agregar</button>
-            </div>
-        `;
+        productosElegidos.forEach(producto => {
+            const div = document.createElement("div");
+            div.classList.add("producto");
+            div.innerHTML = `
+                <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+                <div class="producto-detalles">
+                    <h3 class="producto-titulo">${producto.titulo}</h3>
+                    <p class="producto-precio">$${producto.precio}</p>
+                    <button class="producto-agregar" id="${producto.id}">Agregar</button>
+                </div>
+            `;
 
-        contenedorProductos.append(div);
-    })
+            contenedorProductos.append(div);
+        });
 
-    actualizarBotonesAgregar();
+        actualizarBotonesAgregar();
+
+        // Después de un pequeño retraso, elimina la clase 'salida' para activar la animación de entrada
+        setTimeout(() => {
+            contenedorProductos.classList.remove("salida");
+        }, 50);
+    }, 300); // Ajusta el tiempo según la duración de tu transición de salida
 }
+
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {

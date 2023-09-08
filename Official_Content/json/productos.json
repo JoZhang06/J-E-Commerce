@@ -4,8 +4,8 @@
         "titulo": "Abrigo 01",
         "imagen": "./img/abrigos/01.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 248
     },
@@ -14,8 +14,8 @@
         "titulo": "Abrigo 02",
         "imagen": "./img/abrigos/02.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 753
     },
@@ -24,8 +24,8 @@
         "titulo": "Abrigo 03",
         "imagen": "./img/abrigos/03.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 125
     },
@@ -34,8 +34,8 @@
         "titulo": "Abrigo 04",
         "imagen": "./img/abrigos/04.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 478
     },
@@ -44,8 +44,8 @@
         "titulo": "Abrigo 05",
         "imagen": "./img/abrigos/05.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 349
     },
@@ -54,8 +54,8 @@
         "titulo": "Camiseta 01",
         "imagen": "./img/camisetas/01.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 892
     },
@@ -64,8 +64,8 @@
         "titulo": "Camiseta 02",
         "imagen": "./img/camisetas/02.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 421
     },
@@ -74,8 +74,8 @@
         "titulo": "Camiseta 03",
         "imagen": "./img/camisetas/03.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 635
     },
@@ -84,8 +84,8 @@
         "titulo": "Camiseta 04",
         "imagen": "./img/camisetas/04.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 154
     },
@@ -94,8 +94,8 @@
         "titulo": "Camiseta 05",
         "imagen": "./img/camisetas/05.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 825
     },
@@ -104,8 +104,8 @@
         "titulo": "Camiseta 06",
         "imagen": "./img/camisetas/06.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 376
     },
@@ -114,8 +114,8 @@
         "titulo": "Camiseta 07",
         "imagen": "./img/camisetas/07.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 599
     },
@@ -124,8 +124,8 @@
         "titulo": "Camiseta 08",
         "imagen": "./img/camisetas/08.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Superiores",
+            "id": "superiores"
         },
         "precio": 312
     },
@@ -134,8 +134,8 @@
         "titulo": "Pantalón 01",
         "imagen": "./img/pantalones/01.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Inferiores",
+            "id": "inferiores"
         },
         "precio": 756
     },
@@ -144,8 +144,8 @@
         "titulo": "Pantalón 02",
         "imagen": "./img/pantalones/02.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Inferiores",
+            "id": "inferiores"
         },
         "precio": 188
     },
@@ -154,8 +154,8 @@
         "titulo": "Pantalón 03",
         "imagen": "./img/pantalones/03.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Inferiores",
+            "id": "inferiores"
         },
         "precio": 427
     },
@@ -164,8 +164,8 @@
         "titulo": "Pantalón 04",
         "imagen": "./img/pantalones/04.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Inferiores",
+            "id": "inferiores"
         },
         "precio": 584
     },
@@ -174,8 +174,8 @@
         "titulo": "Pantalón 05",
         "imagen": "./img/pantalones/05.jpg",
         "categoria": {
-            "nombre": "Pantalones",
-            "id": "pantalones"
+            "nombre": "Inferiores",
+            "id": "inferiores"
         },
         "precio": 69
     },
