@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-Gentleman - Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <style>
+        .carousel-item img {
+            width: 100%;
+            max-height: 350px;
+            opacity: 0.5;
+            object-fit: cover;
+            margin: 0 auto;
+        }
+
+        body {
+            margin-top: 20px;
+            font-family: 'Rajdhani', sans-serif;
+            background-color: var(--main);
+            color: var(--labels);
+        }
+
+        header {
+            background-color: var(--main);
+            color: var(--labels);
+            padding: 0rem 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a J-Gentleman</h1>
+    </header>
+    <!-- Contenido de la página de inicio -->
+    <div class="container">
+        <p>Somos tu tienda en línea, aquí puedes comprar productos de moda, ropa y mucho más.
+            <br> ¡Explora nuestra selección y encuentra las mejores ofertas!
+        </p>
+    </div>
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img//carousel/Trajes.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Trajes</h5>
+                    <p>Para los caballeros, nuestros trajes.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/carousel/Camisas.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Camisas</h5>
+                    <p>Camisas, camisetas, abrigos.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/carousel/Pantalones.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pantalones</h5>
+                    <p>No podría faltar, los clásicos pantalones.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/carousel/Zapatos.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Zapatos</h5>
+                    <p>Algunos de nuestras marcas de zapatos</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div>
+        <a href="principal.html" class="boton-index">Ver Productos</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+    <script>
+        // Función para avanzar al siguiente slide del carrusel
+        function nextSlide() {
+            const carousel = document.querySelector('.carousel');
+            const nextButton = document.querySelector('.carousel-control-next');
+    
+            // Dispara un clic en el botón "Siguiente"
+            nextButton.click();
+        }
+    
+        // Intervalo para avanzar automáticamente cada 3 segundos (3000 milisegundos)
+        setInterval(nextSlide, 2000);
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Abrigo 01",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 248
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Abrigo 02",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 753
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Abrigo 03",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 125
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Abrigo 04",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 478
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Abrigo 05",
+        "imagen": "./img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 349
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta 01",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 892
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta 02",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 421
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta 03",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 635
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta 04",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 154
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta 05",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 825
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta 06",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 376
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta 07",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 599
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta 08",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 312
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 756
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón 02",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 188
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón 03",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 427
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón 04",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 584
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalón 05",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 69
+    },
+    {
+        "id": "traje-01",
+        "titulo": "Traje 01",
+        "imagen": "./img/trajes/01.jpg",
+        "categoria": {
+            "nombre": "Trajes",
+            "id": "trajes"
+        },
+        "precio": 451
+    },
+    {
+        "id": "traje-02",
+        "titulo": "Traje 02",
+        "imagen": "./img/trajes/02.jpg",
+        "categoria": {
+            "nombre": "Trajes",
+            "id": "trajes"
+        },
+        "precio": 822
+    },
+    {
+        "id": "traje-03",
+        "titulo": "Traje 03",
+        "imagen": "./img/trajes/03.jpg",
+        "categoria": {
+            "nombre": "Trajes",
+            "id": "trajes"
+        },
+        "precio": 97
+    },
+    {
+        "id": "traje-04",
+        "titulo": "Traje 04",
+        "imagen": "./img/trajes/04.jpg",
+        "categoria": {
+            "nombre": "Trajes",
+            "id": "trajes"
+        },
+        "precio": 585
+    },
+    {
+        "id": "traje-05",
+        "titulo": "Traje 05",
+        "imagen": "./img/trajes/05.jpg",
+        "categoria": {
+            "nombre": "Trajes",
+            "id": "trajes"
+        },
+        "precio": 362
+    },
+    {
+        "id": "traje-06",
+        "titulo": "Traje 06",
+        "imagen": "./img/trajes/06.jpg",
+        "categoria": {
+            "nombre": "Trajes",
+            "id": "trajes"
+        },
+        "precio": 211
+    },
+    {
+        "id": "traje-07",
+        "titulo": "Traje 07",
+        "imagen": "./img/trajes/07.jpg",
+        "categoria": {
+            "nombre": "Trajes",
+            "id": "trajes"
+        },
+        "precio": 432
+    },
+    {
+        "id": "zapato-02",
+        "titulo": "Zapato02",
+        "imagen": "./img/zapatos/02.jpg",
+        "categoria": {
+            "nombre": "Zapato",
+            "id": "zapatos"
+        },
+        "precio": 786
+    },
+    {
+        "id": "zapato-03",
+        "titulo": "Zapato03",
+        "imagen": "./img/zapatos/03.jpg",
+        "categoria": {
+            "nombre": "Zapato",
+            "id": "zapatos"
+        },
+        "precio": 479
+    },
+    {
+        "id": "zapato-04",
+        "titulo": "Zapato04",
+        "imagen": "./img/zapatos/04.jpg",
+        "categoria": {
+            "nombre": "Zapato",
+            "id": "zapatos"
+        },
+        "precio": 124
+    },
+    {
+        "id": "zapato-05",
+        "titulo": "Zapato05",
+        "imagen": "./img/zapatos/05.jpg",
+        "categoria": {
+            "nombre": "Zapato",
+            "id": "zapatos"
+        },
+        "precio": 248
+    },
+    {
+        "id": "zapato-06",
+        "titulo": "Zapato06",
+        "imagen": "./img/zapatos/06.jpg",
+        "categoria": {
+            "nombre": "Zapato",
+            "id": "zapatos"
+        },
+        "precio": 625
+    },
+    {
+        "id": "zapato-01",
+        "titulo": "Zapato01",
+        "imagen": "./img/zapatos/01.jpg",
+        "categoria": {
+            "nombre": "Zapato",
+            "id": "zapatos"
+        },
+        "precio": 372
+    }
+]
